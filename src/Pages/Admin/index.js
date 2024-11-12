@@ -1,0 +1,10 @@
+export { default as AdminProfile } from "./AdminProfile";
+export { default as AdminSettings } from "./AdminSettings";
+export { default as AdminHome } from "./AdminHome";
+export { default as AllCourses } from "./AllCourses";
+export { default as Communication } from "./Communication";
+export { default as ContentManagement } from "./ContentManagement";
+export { default as Finance } from "./Finance";
+export { default as StudentsGrading } from "./StudentsGrading";
+export { default as Support } from "./Support";
+export { default as UserManagement } from "./UserManagement";
