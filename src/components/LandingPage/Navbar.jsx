@@ -11,9 +11,14 @@ export const Navbar = () => {
             <img src={whiteLogo} alt="Logo" width={70} />
           </Link>
         </div>
-        <Link to={"/SignUp"}>
-          <Button variant="secondary">Get Started</Button>
-        </Link>
+        <div className="flex items-center space-x-4">
+          <Link to={"/Admission"}>
+            <Button variant="secondary">Admission</Button>
+          </Link>
+          <Link to={"/SignUp"}>
+            <Button variant="secondary">Get Started</Button>
+          </Link>
+        </div>
       </div>
     </nav>
   );
