@@ -8,4 +8,3 @@ export { default as Finance } from "./Finance";
 export { default as StudentsGrading } from "./StudentsGrading";
 export { default as Support } from "./Support";
 export { default as UserManagement } from "./UserManagement";
-export { default as AdmissionApplications } from "./AdmissionApplications"

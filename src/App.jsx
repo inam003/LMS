@@ -31,7 +31,6 @@ import {
   AdminHome,
   AdminProfile,
   AdminSettings,
-  AdmissionApplications,
   AllCourses,
   Communication,
   ContentManagement,
@@ -41,16 +40,11 @@ import {
   UserManagement,
 } from "./Pages/Admin";
 import { Home } from "./Pages/LandingPage";
-import { AdmissionPortal } from "./Pages/Public/AdmissionPortal";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Home />,
-  },
-  {
-    path: "/Admission",
-    element: <AdmissionPortal />,
   },
   {
     path: "/SignUp",
@@ -155,10 +149,7 @@ const router = createBrowserRouter([
         path: "",
         element: <AdminHome />,
       },
-      {
-        path: "Applications",
-        element: <AdmissionApplications />,
-      },
+
       {
         path: "UserManagement",
         element: <UserManagement />,
