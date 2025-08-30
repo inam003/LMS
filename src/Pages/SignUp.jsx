@@ -31,7 +31,9 @@ export default function SignUp() {
         </div>
       </CardContent>
       <CardFooter className="pb-3">
-        <Button className="w-full">Sign Up</Button>
+        <Link to={"/Login"} className="w-full">
+          <Button className="w-full">Sign Up</Button>
+        </Link>
       </CardFooter>
       <div className="text-center text-sm mb-4">
         Already have an account?{" "}

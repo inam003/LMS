@@ -30,11 +30,19 @@ export default function Login() {
           <Input id="password" type="password" required />
         </div>
       </CardContent>
-      <CardFooter className="pb-3">
-        <Button className="w-full">Login</Button>
+      <CardFooter className="pb-3 flex items-center justify-center gap-2">
+        <Link to="/Admin">
+          <Button className="w-full">Admin</Button>
+        </Link>
+        <Link to="/Teacher">
+          <Button className="w-full">Teacher</Button>
+        </Link>
+        <Link to="/Student">
+          <Button className="w-full">Student</Button>
+        </Link>
       </CardFooter>
       <div className="text-center text-sm mb-4">
-        Don't have an account?{" "}
+        Don&apos;t have an account?{" "}
         <Link to="/SignUp" className="underline font-semibold">
           Sign up
         </Link>
